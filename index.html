@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHANI Art - Multimedia Artist & Illustrator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="top-bar">
+            <span>Free UK Delivery on all orders over £30</span>
+        </div>
+        <div class="logo-container">
+            <a href="index.html"><img src="assets/images/logo.png" alt="Shani Madhu - Professional Artist & Illustrator"
+                    class="logo-img"></a>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="commissions.html">Commissions</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+
+                <div class="hero-buttons">
+                    <a href="gallery.html" class="btn-hero">GALLERY</a>
+                    <a href="commissions.html" class="btn-hero btn-secondary">BOOK YOUR COMMISSION</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <div class="meet-grid">
+                    <!-- Left Column: Image -->
+                    <div class="meet-image-col">
+                        <img src="assets/images/profilpicinst.jpg" alt="Shani Madhu In Studio" class="studio-portrait">
+                    </div>
+
+                    <!-- Right Column: Text -->
+                    <div class="meet-text-col">
+                        <h2 class="meet-title">MEET SHANI</h2>
+                        <h3 class="meet-subtitle">A bit about how it all began...</h3>
+
+                        <p>Hello, my name is Shani Madhu, a professional artist with over 20 years of experience
+                            creating a wide range of artworks. My artistic journey spans watercolour, colour pencil,
+                            acrylic, and oil paintings, with a strong foundation in both traditional and contemporary
+                            techniques. Over the years, I have been honoured to receive awards in various art
+                            competitions, recognising my dedication and passion for fine art.</p>
+
+                        <p>I hold a Diploma in 2D Drawing and Animation, which has further enhanced my understanding of
+                            form, detail, and visual storytelling. For the past 5 years in the UK, I have been
+                            specialising in commissioned artworks, working closely with clients to create meaningful,
+                            hand-crafted pieces that capture emotion, personality, and lasting memories. Each artwork is
+                            carefully created with attention to detail, making every artwork unique.</p>
+
+                        <a href="about.html" class="btn-text">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider-illustration">
+            <!-- Can use a repeating background image or SVG here for the trees/houses line -->
+        </div>
+        </section>
+
+        <section class="home-gallery">
+            <div class="container">
+                <h2 class="section-title text-center">LATEST WORK</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="assets/images/cp23.jpeg" alt="Colored Pencil Art 23">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/cp20.jpeg" alt="Colored Pencil Art 20">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/insta_work.jpg" alt="Instagram Artwork">
+                    </div>
+                </div>
+                <div class="text-center" style="margin-top: 30px;">
+                    <a href="gallery.html" class="btn-text" style="
+    color: black;
+">VIEW FULL GALLERY</a>
+                </div>
+            </div>
+        </section>
+        <section class="home-contact">
+            <div class="container container-narrow">
+                <h2 class="section-title text-center">GET IN TOUCH</h2>
+                <p class="text-center" style="margin-bottom: 30px;">
+                    Have a question or a commission enquiry? I'd love to hear from you.
+                </p>
+                <form class="contact-form" action="https://formspree.io/f/meedzopw" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn-submit">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <h4>shop</h4>
+                    <ul>
+                        <li><a href="shop.html">Shop All</a></li>
+                        <li><a href="commissions.html">Commissions</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Delivery & Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>information</h4>
+                    <ul>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>contact</h4>
+                    <p>artshani477@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="#">FB</a>
+                        <a href="https://www.instagram.com/sshanimadhu?igsh=dDF4bjQ2c3VxYWhk&utm_source=qr">IG</a>
+                        <a href="#">PI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SHANI Art. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <!-- Instagram Floating Button -->
+        <a href="https://www.instagram.com/sshanimadhu?igsh=dDF4bjQ2c3VxYWhk&utm_source=qr"
+            class="instagram-float fixed bottom-24 right-6 md:bottom-28 md:right-8 w-16 h-16 text-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 z-50 hover:scale-110"
+            target="_blank" aria-label="Visit our Instagram">
+            <i class="fab fa-instagram text-3xl"></i>
+        </a>
+
+        <!-- WhatsApp Floating Button -->
+        <a href="https://wa.me/447513162155"
+            class="whatsapp-float fixed bottom-6 right-6 md:bottom-8 md:right-8 w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-all duration-300 z-50 animate-bounce"
+            target="_blank" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp text-3xl"></i>
+        </a>
+</body>
+
+</html>
